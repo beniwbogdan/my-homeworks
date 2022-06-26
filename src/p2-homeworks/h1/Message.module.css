@@ -1,0 +1,78 @@
+
+.textMessageBlock {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    width: 390px;
+    margin-left: 15px;
+    background-color: #002200;
+    opacity: 0.8;
+}
+
+.image img {
+display: flex;
+    justify-content: flex-start;
+    width: 60px;
+    border-radius: 50%;
+    margin: 20px 20px 0px 15px;
+}
+.textMessage{
+    background-color: #A8E700;
+}
+.textMessage .name {
+    margin-bottom: 5px;
+    display: flex;
+    font-weight: bold;
+
+}
+
+.textMessage .message {
+    display: flex;
+    height: auto;
+}
+
+.textMessage .time {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.textMessage {
+    position: relative;
+    margin-top: 9px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #A8E700;
+    width: 200px;
+    height: auto;
+    text-align: left;
+    font: 400 .9em 'Open Sans', sans-serif;
+    border: 1px solid #61dafb;
+    border-radius: 10px;
+}
+
+.textMessage:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #A8E700;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    top: 59px;
+    left: -15px;
+}
+
+.textMessage:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 17px solid #A8E700;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    top: 57px;
+    left: -17px;
+}
